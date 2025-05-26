@@ -1,22 +1,28 @@
-# 1. What is PostgreSQL?
+# 1️⃣ What is PostgreSQL?
 
 postgreSQL একটি ওপেন সোর্স রিলেশনাল ডাটাবেস ম্যানেজমেন্ট সিস্টেম।
 
 ফীচার সমূহ :
 
 ১। এটি লার্জ ডাটাসেট এর ক্ষেত্রে কমপ্লেক্স কোয়েরি ব্যবহার করার মাধ্যমে হাই পারফরমেন্স নিশ্চিত করে।  
+
 ২। ক্রস প্লাটফর্ম সাপোর্ট করে। যেমন উইন্ডোস , লিনাক্স , ম্যাক অপারেটিং সিস্টেম।
 
-# 2. What is the purpose of a database schema in PostgreSQL?
+
+# 2️⃣ What is the purpose of a database schema in PostgreSQL?
 
 ডিফল্ট ভাবে postgreSQL একটি public schema তৈরি করে।
 
 ১। এটি সকল অব্জেক্টস যেমন টেবিল, ভিউ, ফাঙ্কশন ইত্যাদি সংরক্ষণ ও সংগঠিত করে রাখে। ডাটা এফিসিয়েন্টলি ম্যানেজ করতে স্কিমা দরকার হয়।
+
 ২। রিলেটেড টেবিল এবং ফাঙ্কশন গ্রুপ আকারে সাজায়ে রাখতে স্কিমা প্রয়োজন।
+
 ৩। স্কিমা লেভেল এ পারমিশন সেট করার মাধ্যমে নির্দিষ্ট ব্যবহারকারীদের জন্য অ্যাক্সেস সীমাবদ্ধ করা যায়।
+
 ৪। একাধিক ক্লায়েন্ট বা অ্যাপ্লিকেশনের জন্য ডেটা আলাদা করতে বিভিন্ন স্কিমা ব্যবহার করা যেতে পারে।
 
-# 3. Explain the Primary Key and Foreign Key concepts in PostgreSQL.
+
+# 3️⃣ Explain the Primary Key and Foreign Key concepts in PostgreSQL.
 
 Primary Key:
 
@@ -56,7 +62,8 @@ CREATE TABLE employees (
 
 এখানে employees টেবিল এর department_id একটি ফরেন key যেটি departments table এর সাথে একটি সম্পর্ক তৈরী করে।
 
-# 4. What is the difference between the VARCHAR and CHAR data types?
+
+# 4️⃣ What is the difference between the VARCHAR and CHAR data types?
 
 VARCHAR and CHAR উভয়ই character string এর জন্য ব্যবহার করা হয় কিন্তু এদের মধ্যে কিছু পার্থক্য আছে। VARCHAR variable-length string এর জন্য অন্যদিকে CHAR ফিক্সড-লেংথ স্ট্রিং এর জন্য ব্যবহার করা হয়।
 
@@ -76,7 +83,8 @@ CREATE TABLE countries (
 );
 ```
 
-# 5. What are the LIMIT and OFFSET clauses used for?
+
+# 5️⃣ What are the LIMIT and OFFSET clauses used for?
 
 LIMIT and OFFSET clauses সাধারণত pagination এর জন্য ব্যবহার করা হয়। তাছাড়া Query কয়টা row রিটার্ন করবে সেটি নিয়ন্ত্রণ করে LIMIT Clause.
 
